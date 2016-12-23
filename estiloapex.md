@@ -290,7 +290,7 @@ Genera tus propios datos de prueba, no te fies de datos preexistentes en la orga
 
 <a name="Enlaces"></a>
 ### Enlaces
-Recomendaciones de Salesforce, a seguir estrictamente -> [Apex Code Best Practices](https://developer.salesforce.com/page/Apex_Code_Best_Practices)
+Recomendaciones de Salesforce, a seguir estrictamente -> [Apex Code Best Practices](https://developer.salesforce.com/page/Apex_Code_Best_Practices)  
 Sobre todo:
 - Bulkifica.
 - No hagas consultas en bucles.
