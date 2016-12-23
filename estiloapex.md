@@ -91,7 +91,7 @@ Las tabulaciones suelen traer mas problemas que beneficios, pero entendemos que 
 <a name="new-lines-and-spaces"></a>
 ### Nuevas lineas y espacios
 
-Las lineas deberan tener menos de cien columnas.
+Las lineas deberán tener menos de cien columnas.
 
 Usa el interlineado vertical como resulte apropiado. No dudes en separar los bloques de código.
 
@@ -101,13 +101,13 @@ Las llaves de apertura deberían tener un espacio delante, no una nueva linea.
 
 Los `else`s y `else if`s no llevan una nueva linea delante. Tampoco los `catch`es ni los `while`s.
 
-Los parentesis de los `if`, `while`, `do`, `catch`, etc., deberían estar precedidos y seguidos de un espacio.
+Los paréntesis de los `if`, `while`, `do`, `catch`, etc., deberían estar precedidos y seguidos de un espacio.
 
-En las definiciones de los métodos debería no haber espacio antes del parentesis de apertura y un espaico tras el de cierre.
+En las definiciones de los métodos debería no haber espacio antes del paréntesis de apertura y un espacio tras el de cierre.
 
-En las llamadas y definiciones de métodos, no debería haber espacios entre el nombre y el parentesis de apertura.
+En las llamadas y definiciones de métodos, no debería haber espacios entre el nombre y el paréntesis de apertura.
 
-Los operadores binarios (`+`, `||`, `=`, `>=`, ...) deberían llevar un espacio antes y otro después.  Los unitarios (`!`, `-`) deberían ir junto a sus parámetros.  Los dos puntos de un `for each` loop (e.g., `for (Contact cnt : contacts) {`) debería llevar un espacio antes y otro después.  Las comas no llevan espacio delante y llevan uno detrás.
+Los operadores binarios (`+`, `||`, `=`, `>=`, ...) deberían llevar un espacio antes y otro después.  Los unitarios (`!`, `-`) deberían ir junto a sus parámetros.  Los dos puntos de un bucle `for each` (p.ej. `for (Contact cnt : contacts) {`) deberían llevar un espacio antes y otro después.  Las comas no llevan espacio delante y llevan uno detrás.
 
 La declaración de getters y setters sin lógica seguira el formato de una linea (`{ get; set; }`).
 
@@ -131,7 +131,7 @@ Seguimos el standard Java con dos excepciones.  Esto quiere decir que los `for`,
 
 Las excepciones son:
 
-Los métodos y clases nativos de Apex se referenciarán como en la documentacón oficial de Salesforce, a excepción del SObject, que escribiremos así a pesar de en la documentación aparecer también como sObject.
+Los métodos y clases nativos de Apex se referenciarán como en la documentación oficial de Salesforce, a excepción del SObject, que escribiremos así a pesar de en la documentación aparecer también como sObject.
 
 De cualquier manera, al referenciar un metadato de Salesforce (SObject, SObjectField, FieldSet, Action, Class, Page, etc.), utilizaremos las mayúsculas de su declaración, aún cuando no coincidan con las de esta guía.
 
