@@ -49,11 +49,12 @@ Este documento está abierto a discusión y puede ser modificado.
 <a name="sources"></a>
 ### Fuentes
 
-La inspiración para este documento han sido las guías de estilo Java de [Google](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html), [Twitter](https://github.com/twitter/commons/blob/master/src/java/com/twitter/common/styleguide.md) y la de [Estilo Apex de Polaris Project](https://github.com/PolarisProject/salesforceStyleGuide)
+La inspiración para este documento han sido las guías de estilo Java de [Google](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html), [Twitter](https://github.com/twitter/commons/blob/master/src/java/com/twitter/common/styleguide.md) y la de Estilo Apex de [Polaris Project](https://github.com/PolarisProject/salesforceStyleGuide)
 
 Son lectura recomendada para comprender algunas de las decisiones de este documento y los beneficios de mantenerlo:
--1. [Clean Code](https://books.google.es/books/about/Clean_Code.html?id=hjEFCAAAQBAJ)
--2. [Code Complete 2](https://books.google.es/books?id=LpVCAwAAQBAJ)
+
+1. [Clean Code](https://books.google.es/books/about/Clean_Code.html?id=hjEFCAAAQBAJ)
+2. [Code Complete 2](https://books.google.es/books?id=LpVCAwAAQBAJ)
 
 
 <a name="basics"></a>
@@ -193,7 +194,7 @@ public class MyClass {
 ### `@isTest`
 En un método de prueba usar el atributo `@isTest` en vez de el modificador `testmethod`.
 
-Los métodos de prueba deberían ir en su propia clase y nunca inlined en el código que prueban.  La nomenclatura de la clase de pruebas por defecto será <NombreDeLaClaseQuePrueba>Test.
+Los métodos de prueba deberían ir en su propia clase y nunca inlined en el código que prueban.
 
 <a name="teststarttest-and-teststoptest"></a>
 ## Test.startTest() and Test.stopTest()
