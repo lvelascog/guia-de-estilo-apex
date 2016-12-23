@@ -39,7 +39,7 @@
 
 <a name="goals"></a>
 ### Objetivos
-El principal objetivo de esta guía es proporcionar una serie de reglas que seguir durante el desarrollo de código Apex. Cada desarrollador puede tener una serie de ideas distintas sobre que hace el código mas legible o bonito, pero si el equipo sigue las mismas reglas conseguimos:
+El principal objetivo de esta guía es proporcionar una serie de reglas que seguir durante el desarrollo de código Apex.  Cada desarrollador puede tener una serie de ideas distintas sobre que hace el código mas legible o bonito, pero si el equipo sigue las mismas reglas conseguimos:
 
 1. Que sea mas facil para todos los desarrolladores entender el código.
 2. La mezcla de código se centre en la lógica y no en la estética.
@@ -52,8 +52,8 @@ Este documento está abierto a discusión y puede ser modificado.
 La inspiración para este documento han sido las guías de estilo Java de [Google](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html), [Twitter](https://github.com/twitter/commons/blob/master/src/java/com/twitter/common/styleguide.md) y la de [Estilo Apex de Polaris Project](https://github.com/PolarisProject/salesforceStyleGuide)
 
 Son lectura recomendada para comprender algunas de las decisiones de este documento y los beneficios de mantenerlo:
-1. [Clean Code](https://books.google.es/books/about/Clean_Code.html?id=hjEFCAAAQBAJ)
-2. [Code Complete 2](https://books.google.es/books?id=LpVCAwAAQBAJ)
+-1. [Clean Code](https://books.google.es/books/about/Clean_Code.html?id=hjEFCAAAQBAJ)
+-2. [Code Complete 2](https://books.google.es/books?id=LpVCAwAAQBAJ)
 
 
 <a name="basics"></a>
