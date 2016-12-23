@@ -78,13 +78,13 @@ Para el resto de caracteres no-ASCII, se usará el caracter Unicode (p.ej. `∞`
 <a name="structure"></a>
 ## Estructura
 
-El orden de los miembros de una clase puede tener un gran efecto sobre la facilidad para entenderla, pero no hay una sola forma correcta de hacerlo. Distintas clases pueden ordenarse de manera distinta.
+El orden de los miembros de una clase puede tener un gran efecto sobre la facilidad para entenderla, pero no hay una sola forma correcta de hacerlo. Distintas clases pueden ordenarse de manera distinta.  
 
-Lo importante es que el orden dentro de la clase sea lógico, un orden que el mantenedor pueda explicar si es necesario. Por ejemplo, no añadir los nuevos métodos al final de la clase, que daría un orden cronológico, pero sinjustificación lógica.
+Lo importante es que el orden dentro de la clase sea lógico, un orden que el mantenedor pueda explicar si es necesario.  Por ejemplo, no añadir los nuevos métodos al final de la clase, que daría un orden cronológico, pero sin justificación lógica.
 
 <a name="indentation"></a>
 ### Sangrías
-La sangría (indentation) de todos los bloques de código será la tabulación. Siempre usaremos este caracter y no 2, ni 4 espacios en blanco, para mantener la consistencia en toda la base de código.
+La sangría (indentation) de todos los bloques de código será la tabulación. Siempre usaremos este caracter y no 2, ni 4 espacios en blanco, para mantener la consistencia en toda la base de código.  
 
 Las tabulaciones suelen traer mas problemas que beneficios, pero entendemos que en código Apex, con la limitación existente en el número de caracteres, son justificables.
 
