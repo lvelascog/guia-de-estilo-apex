@@ -60,7 +60,7 @@ Son lectura recomendada para comprender algunas de las decisiones de este docume
 <a name="basics"></a>
 ## Consideraciones básicas
 <a name="special-characters"></a>
-### Special characters
+### Caracteres especiales
 <a name="whitespace"></a>
 #### Espacio en blanco
 Los únicos espacios en blanco permitidos son los de espacio (0x20) y tabulación horizontal (0x09).  Las lineas no han de terminar con espacios (`/ +$/` no debe encontrar nada en el archivo).  Todas las clases deberían terminar en una linea nueva.
@@ -70,7 +70,7 @@ Los únicos espacios en blanco permitidos son los de espacio (0x20) y tabulació
 Para los caracteres que tienen secuencia de escape (`\b`, `\t`, `\n`, `\f`, `\r`, `\"`, `\'` y `\\`), se usará ese código y no el octal (e.g. `\012`) ni el Unicode (e.g. `\u000a`).
 
 <a name="other-non-ascii-characters"></a>
-#### Otros caracteres No-ASCII
+#### Otros caracteres no-ASCII
 Para el resto de caracteres no-ASCII, se usará el caracter Unicode (p.ej. `∞`) o su secuencia de escape Unicode (p.ej. `\u221e`), dependiendo de cual haga el código mas facil de entender.
 
   > Consejo: Cuando se usan caracteres de escape Unicode un comentario explicativo suele venir bien.
