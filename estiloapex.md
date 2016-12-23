@@ -113,7 +113,7 @@ La declaración de getters y setters sin lógica seguira el formato de una linea
 
 <a name="braces"></a>
 ### Llaves
-Estilo egipcio, con la llave de apertura en la linea actual. [Más] (https://google.github.io/styleguide/javaguide.html#s4.1.2-blocks-k-r-style)
+Estilo egipcio, con la llave de apertura en la linea actual. [Más información.] (https://google.github.io/styleguide/javaguide.html#s4.1.2-blocks-k-r-style)
 
 <a name="prefer-explicit-declarations"></a>
 ### Preferimos declaraciones explicitas
