@@ -18,7 +18,7 @@
   - [Uso de mayúsculas](#capitalization)
   - [Ejemplo](#example)
   - [`@isTest`](#istest)  
-  - [Test.startTest() and Test.stopTest()](#teststarttest-and-teststoptest)  
+  - [Test.startTest() y Test.stopTest()](#teststarttest-and-teststoptest)  
 - [SOQL](#soql)
 - [Apex-Specific SObject Constructor Syntax](#apex-specific-sobject-constructor-syntax)
 - [Nomenclatura](#naming-conventions)
@@ -27,7 +27,7 @@
   - [Métodos](#methods)
   - [Clases de prueba](#test-classes)
 - [Buenas prácticas](#best-practices)
-  - [Se seco](#dry)
+  - [DRY - Se seco](#dry)
   - [No te tragues excepciones](#exceptions)
   - [Datos de prueba](#test-data)
   - [Enlaces](#links)
@@ -41,7 +41,7 @@
 ### Objetivos
 El principal objetivo de esta guía es proporcionar una serie de reglas que seguir durante el desarrollo de código Apex.  Cada desarrollador puede tener una serie de ideas distintas sobre que hace el código mas legible o bonito, pero si el equipo sigue las mismas reglas conseguimos:
 
-1. Que sea mas facil para todos los desarrolladores entender el código.
+1. Que sea mas fácil para todos los desarrolladores entender el código.
 2. La mezcla de código se centre en la lógica y no en la estética.
 
 Este documento está abierto a discusión y puede ser modificado.
@@ -204,7 +204,7 @@ Al escribir casos de prueba utilizar siempre `Test.startTest();` y `Test.stopTes
 <a name="soql"></a>
 ## SOQL
 
-En general el SOQL se deberian declarar inline donde se utilice.  En los casos en los que sea necesario realizar declaración dinámica (FieldSets) se intentarán aplicar las mismas reglas.
+En general el SOQL se deberían declarar inline donde se utilice.  En los casos en los que sea necesario realizar declaración dinámica (FieldSets) se intentarán aplicar las mismas reglas.
 
 Las palabras clave SOQL (`SELECT`, `WHERE`, `TODAY`, ...) deberían ir en `MAYUSCULAS`.  Los objetos, campos y variables deberían referenciarse de la forma en la que se han declarado.  Cada clausula de la sentencia SOQL debería ir en su propia linea para facilitar la identificación de cambios.  Esto quiere decir que cada `SELECT`, `FROM`, `WHERE`, `AND`, `OR`, `GROUP BY`, `HAVING`, `ROLL UP`, `ORDER BY`, etc., debería empezar una linea nueva, con las excepción del primer `SELECT`.  La linea debería empezar en la misma columna que su `SELECT` relevante.
 
@@ -257,8 +257,8 @@ Agrupa las funciones usadas en multiples sitios en clases de Utils (p.ej. LogUti
 ### Trigger y Scheduler
 Según la envergadura del proyecto, considerar utilizar frameworks para los Triggers y el Scheduler.
 
-- [Framework Trigger] (https://code.google.com/archive/p/apex-trigger-architecture-framework/)
-- [Framework Scheduler] (https://th3silverlining.com/2014/02/02/salesforce-universal-batch-scheduling-class/)
+- [Framework para Triggers](https://code.google.com/archive/p/apex-trigger-architecture-framework/)
+- [Framework para el Scheduler](https://th3silverlining.com/2014/02/02/salesforce-universal-batch-scheduling-class/)
 
 NUNCA utilizar mas de un Trigger por objeto y SIEMPRE sacar la lógica del Trigger como mínimo a un <sObjectTrigger>Handler.
 
@@ -282,7 +282,7 @@ Las clases de prueba se llamarán `ClaseAProbarTest`.  Si no es un test unitario
 
 <a name="exceptions"></a>
 ### No te tragues excepciones
-Un bloque catch vacio no suele ser buena idea.
+Un bloque catch vacío no suele ser buena idea.
 
 <a name="test-data"></a>
 ### Datos de prueba
