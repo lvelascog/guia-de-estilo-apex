@@ -247,10 +247,10 @@ Contact c = new Contact(RecordTypeId = CONTACT_RECORDTYPE_ID,
 ### Clases
 Nombra una clase por lo que hace.  
 
-Un controlador tendrá Controller como final de su nombre.
-Una extensión de controlador se llamará <sObjectDescripcion>ControllerExt.
-Un Scheduler o Batch mostrarán esta información al final del nombre de la clase <descripcion>Batch o <descripcion>Scheduler.
-Agrupa las funciones usadas en multiples sitios en clases de Utils (p.ej. LogUtils, StringUtils)
+Un controlador tendrá Controller como final de su nombre.  
+Una extensión de controlador se llamará <sObjectDescripcion>ControllerExt.  
+Un Scheduler o Batch mostrarán esta información al final del nombre de la clase <descripcion>Batch o <descripcion>Scheduler.  
+Agrupa las funciones usadas en multiples sitios en clases de Utils (p.ej. LogUtils, StringUtils).  
 
 
 <a name="trigger-and-scheduler"></a>
